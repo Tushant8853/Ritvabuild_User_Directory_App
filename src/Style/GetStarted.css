@@ -1,0 +1,32 @@
+.get-started-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #6dd5ed, #2193b0);
+    color: white;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .start-btn {
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    color: #2193b0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .start-btn:hover {
+    background-color: #e3f2fd;
+    transform: scale(1.05);
+  }
+  

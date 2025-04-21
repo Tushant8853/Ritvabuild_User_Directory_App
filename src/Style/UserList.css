@@ -1,0 +1,33 @@
+.user-list-container {
+    background-color: #fff;
+    min-height: 100vh;
+  }
+  
+  .heading {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .search-input {
+    display: block;
+    margin: 0 auto 30px auto;
+    padding: 10px 20px;
+    width: 300px;
+    font-size: 1rem;
+    border: 2px solid #2193b0;
+    border-radius: 25px;
+  }
+  
+  .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 20px;
+  }
+  
+  .info, .error {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.1rem;
+  }
+  

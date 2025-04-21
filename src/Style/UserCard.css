@@ -1,0 +1,96 @@
+.user-card {
+  padding: 20px;
+  margin: 10px;
+  background: #f1faff;
+  border: 1px solid #d0e6f7;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
+  transition: transform 0.2s ease;
+  max-width: 100%;
+  width: 90%;
+  box-sizing: border-box;
+}
+
+.user-card:hover {
+  transform: translateY(-5px);
+  background-color: #eaf6ff;
+}
+
+.user-card h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  word-wrap: break-word;
+}
+
+.user-card p {
+  margin: 8px 0;
+  font-size: 0.95rem;
+  color: #333;
+  word-wrap: break-word;
+}
+
+/* Toggle Button */
+.toggle-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #2193b0;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+  width: 100%;
+  max-width: 250px;
+}
+
+/* Hover/Click Effects */
+.toggle-btn:hover {
+  background-color: #17627d;
+  transform: scale(1.05);
+}
+
+.toggle-btn:active {
+  transform: scale(0.97);
+}
+
+/* Extra Info Section */
+.extra-info p {
+  font-size: 0.9rem;
+  color: #444;
+}
+
+/* =====================
+   Responsive Design
+===================== */
+
+/* Tablets */
+@media (max-width: 768px) {
+  .user-card {
+    padding: 16px;
+    font-size: 0.95rem;
+  }
+
+  .toggle-btn {
+    font-size: 0.95rem;
+    padding: 10px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .user-card {
+    padding: 14px;
+    font-size: 0.9rem;
+  }
+
+  .toggle-btn {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+}
+.user-name{
+  margin: 0;
+  white-space: nowrap;
+}
