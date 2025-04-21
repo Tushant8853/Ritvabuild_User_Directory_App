@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Ritvabuild_User_Directory_App/static/css/main.0a555d79.css",
+    "main.js": "/Ritvabuild_User_Directory_App/static/js/main.01a8d811.js",
+    "index.html": "/Ritvabuild_User_Directory_App/index.html",
+    "main.0a555d79.css.map": "/Ritvabuild_User_Directory_App/static/css/main.0a555d79.css.map",
+    "main.01a8d811.js.map": "/Ritvabuild_User_Directory_App/static/js/main.01a8d811.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a555d79.css",
+    "static/js/main.01a8d811.js"
+  ]
+}
